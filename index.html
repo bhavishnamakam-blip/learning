@@ -21,14 +21,14 @@
                 padding-right: 40px;
     }
 
-    .class{
-        color: rgb(93, 86, 145);
+    .working{
+        color: rgb(74, 74, 131)
         border:3px solid black ;
         font-size: 20px;
     }
     #myHTML{
-        background-color:#8a74a6;
-        color:black;
+        background-color: black;
+        color: rgb(80, 80, 146);
         padding:20px;
         text-align: center;
     }    
@@ -41,7 +41,12 @@
 
 </head>
 <body style="background: black;">
+   
     <h1 style="font-family:roboto;font-size:60px;color:#8a74a6;text-align: center;"> Bhavishna </h1>
+
+     <p> <a href="#h2"> Jump to My favourite Sport </a> </p>
+    <p> <a href="#h3"> Jump to My favourite countries to visit </a> </p>
+
 
     <div style="display:flex;align-items:flex-end">
 
@@ -95,26 +100,23 @@
         </tr>
     </table>
 
-    <h2> Things to do:</h2>
-    <ul>
+    <h2 style="color:#8a74a6"; > Things to do:</h2>
+    <ul style="color:#8a74a6";>
         <li>wash clothes</li>
         <li>do homework</li>
         <li>read a book</li>
         <li>go for a walk</li>
     </ul>
 
-    <ol style="float:left"> 
+    <ol style="color:#8a74a6";margin-left:50px;> 
         <li>learn HTML</li>
         <li>learn CSS</li>
         <li>learn JavaScript</li>
         <li>build a website</li>
     </ol>
 
-    <p class="class">This is the learning stage of HTML!</p>
     <p id="myHTML">This is my first HTML page!</p>
-    <p> <a href="#h2"> Jump to My favourite Sport </a> </p>
-    <p> <a href="#h3"> Jump to My favourite countries to visit </a> </p>
-
+    <div style="color:#8a74a6";>
     <h3> My Hobbies</h3>
     <p> my Hobbies are playing cricket, listening to music, watching movies and cooking.</p>
     <h3> My favourite Food </h3>
@@ -123,6 +125,7 @@
     <p> I like to play cricket.</p>
     <h3 id="h3"> My favourite countries to visit </h3>
     <p> i would like to visit Japan and France </p>
+    </div>
 
     <button onclick=" alert('Hello, welcome to my HTML page!')" style="background: #8a74a6; color: black; font-size: 20px;border-radius: 20%; text-align: center;">I'm excited!</button>
 </body>
