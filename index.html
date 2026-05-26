@@ -101,14 +101,14 @@
     </table>
 
     <h2 style="color:#8a74a6"; > Things to do:</h2>
-    <ul style="color:#8a74a6";>
+    <ul style="color:#8a74a6;">
         <li>wash clothes</li>
         <li>do homework</li>
         <li>read a book</li>
         <li>go for a walk</li>
     </ul>
 
-    <ol style="color:#8a74a6";margin-left:50px;> 
+    <ol style="color:#8a74a6;"> 
         <li>learn HTML</li>
         <li>learn CSS</li>
         <li>learn JavaScript</li>
@@ -116,7 +116,8 @@
     </ol>
 
     <p id="myHTML">This is my first HTML page!</p>
-    <div style="color:#8a74a6";>
+
+    <div style="color:#8a74a6;text-align: center;font-size: 22px;">
     <h3> My Hobbies</h3>
     <p> my Hobbies are playing cricket, listening to music, watching movies and cooking.</p>
     <h3> My favourite Food </h3>
@@ -125,8 +126,24 @@
     <p> I like to play cricket.</p>
     <h3 id="h3"> My favourite countries to visit </h3>
     <p> i would like to visit Japan and France </p>
-    </div>
-
     <button onclick=" alert('Hello, welcome to my HTML page!')" style="background: #8a74a6; color: black; font-size: 20px;border-radius: 20%; text-align: center;">I'm excited!</button>
+    </div>
+    <iframe src="backgroundimported.jpg"; name="iframe_a"; style="height: 300px;width: 525px;margin-left:550px;margin-top:50px;border:none"> </iframe>
+    <p style="text-align: center;"> <a href="https://youtu.be/YLoSNspsvas" target="iframe_a"; >Visit Google</a> </p>
+<p id="trile" style="color:#8a74a6;text-align: center;font-size: 22px;"> Here's something new!</p>
+    <button onclick="myfunction()" style="background: #8a74a6; color: black; font-size: 20px;border-radius: 20%;margin-left:575px;"> Bang Me! </button>
+    <script>
+        function myfunction(){
+            document.getElementById("trile").innerHTML="I am learning JavaScript!";
+             document.getElementById("trile").style.color="#8a74a6";
+              document.getElementById("trile").style.textAlign="center";
+               document.getElementById("trile").style.fontSize="20px";    
+        }
+    </script>
+
+    
+
+   
+
 </body>
 </html>
