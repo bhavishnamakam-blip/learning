@@ -66,6 +66,7 @@
                  height:60px;
                  width:200px;
                  border:none
+                 display: inline-block;
             
             }
 
@@ -76,9 +77,56 @@
                 height:60px;
                 width:200px;
                 border:none;
-            
+                display: inline-block;
             }
+            .button-container{
+                display:flex;
+                gap: 20px;
+                margin-top: 20px;
+            }
+            .google-tabs{
+                display: flex;
+                gap: 20px;
+                justify-content: center;
+                font-size: 16px;
+                font-family: Lucida Sans;
+                font-weight: lighter;
+            }
+            .yes-no-buttons{
+                display:inline-block;
+                gap: 20px;
 
+            }
+            .dog-img{
+                height: 70px;
+                width: 70px;
+                display: inline-block;
+              border-radius : 50px;
+                margin-top: 50px;
+                margin-left: 50px;
+            }
+            .dog-text{
+                display: inline-block;
+                font-size: 20px;
+                font-family: Arial;
+                color: rgb(74, 74, 131);
+                margin-left: 20px;
+                vertical-align: middle;
+                margin-bottom: 80px;
+            }
+            .dog-button{
+                background-color: rgb(34, 146, 232);
+                color: white;
+                border: none;
+                padding: 20px;
+                cursor: pointer;
+                border-radius: 40px;
+                width: 130px;
+                display: inline-block;
+                font-size: 22px;
+                margin-left: 300px;
+                margin-top: 50px;
+            }
 
 
 
@@ -95,11 +143,17 @@
          <p style="font-family: Arial;"> From $1999 </p>
          <button class="button-buy" > Buy </button>
          </div> 
-      <pre>
+      
          <input class="search-bar" type="text" placeholder="Search"> 
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.png" style="height: 70px;width: 200px;margin-left: 550px;">
+    
          <input class="search-bargoogle" type="text" placeholder="Search Google or type a URL" style="margin-left: 330px;"> 
+
+        <div class="google-tabs">
+        <h1 style="vertical-align: top;"> Google search </h1>
+        <h2> I'm feeling lucky </h2>
+        </div>
 
         <h style="font-size: 20px;font-family:Arial"> Email </h>
 
@@ -110,23 +164,25 @@
     
          <p style="font-weight: bold;"> Thanks for chatting with our <br> customer support! Would you <br> like to take our quick survey?<br> </p>
          <div style="float:left; width:200px; margin-right:15px;">
-         <button > Yes </button> <button > No </button>
+         <button class="yes-no-buttons" > Yes </button> 
+         <button class="yes-no-buttons" > No </button>
          </div>
-    </pre>
+   
     
     <pre>
     <h1 style="font-family:Arial;">  Request a ride now </h1>
-    <input placeholder="Enter pickup location" type="text" style="padding: 20px;height:2px;width: 500px;">
-    <input placeholder="Enter destination" type="text" style="padding: 20px;height:2px;width: 500px;margin-top: 20px;border:none;background-color:rgb(223, 226, 230)">
+    <input placeholder="Enter pickup location" type="text" style="padding: 20px;height:2px;width: 500px;border:none;background-color:rgb(199, 202, 200)">
+    <input placeholder="Enter destination" type="text" style="padding: 20px;height:2px;width: 500px;margin-top: 20px;border:none;background-color:rgb(199, 202, 200)">
 
-
+<div class="button-container"> 
     <button class="button-pickup"> Request now </button>
 
     <button class="button-destiny"> Schedule for later </button>
     </pre>
+</div>
 
-
-
-
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRpWpZMAYoSMpQTMoSmYBSJt72b-TJfVgYEA&s" class="dog-img">
+<p class="dog-text"> My name is Bruno! </p>
+<button class="dog-button"> Tweet </button>
     </body>
 </html>
