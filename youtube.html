@@ -5,42 +5,62 @@
         <style> 
             .img-justmarried{
                 width: 300px;
-                height: 170px;
-                display: inline-block;
                 border-radius: 12px;
             }
             .img-sheetalchannel{
                 width: 40px;
                 height: 40px;
-                display: block;
                 border-radius: 50px;
+            }
+            .text-container{
+               width: 220px;
+                margin-left: 10px;
             }
             .p{
                 color: rgb(243, 243, 255);
-                font-size: 20px;
-               display: inline-block;
+                font-size: 18px;
                 font-family: Roboto,sans-serif,Arial;
                 width: 200px;
                 margin-top: 0px;
-                margin-left: 50px;
-                vertical-align: bottom;
+                margin-bottom: 8px;
+        
             }
             .smallpara{
                 color: rgb(156, 158, 154);
                 font-size: 14px;
                 font-family: Roboto,sans-serif,Arial;
-                display: block;
-                width: 200px
-                
+                margin-top: 0;
+                margin-bottom: 0px;
 
+            }
+            .video-info-grid {
+                display: grid;
+                grid-template-columns: ;
+                gap: 10px;
+            }
+            .container{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
             }
 
         </style>
 </head>
+
+<div >
+
 <body style="background-color: black;">
+    <div class="contaioner">
+        
+
+    <div>
     <img class="img-justmarried" src="justmarried.avif"> 
+    <div class="video-info-grid" >
+        <div class="profile-container">
     <img class="img-sheetalchannel" src="sheetalchannel.jpg"> 
-   
+    </div>
+  
+   <div class="text-container">
     <p class="p">
          Just Married Bloopers Sheetal
          Gauthaman Rishi Narayan </p>
@@ -48,5 +68,42 @@
          Sheetal Gauthaman
          477k views . 2 months ago
         </p2>
+        </div>
+    </div>
 
+    <img class="img-justmarried" src="tharunspeaksimg.avif"> 
+    <div class="video-info-grid">
+        <div class="profile-container">
+    <img class="img-sheetalchannel" src="profiletharun.jpg"> 
+    </div>
+  
+   <div class="text-container">
+    <p class="p">
+         I'm 25. If you are 15-24 years old-Never do this 
+         </p>
+         <p2 class="smallpara">
+         Tharun Speaks
+         174k views . 15 days ago
+        </p2>
+        </div>
+    </div>
+  
+
+     <img class="img-justmarried" src="prasadtech.avif"> 
+    <div class="video-info-grid">
+        <div class="profile-container">
+    <img class="img-sheetalchannel" src="profileprasad.jpg"> 
+    </div>
+  
+   <div class="text-container">
+    <p class="p">
+        Technews 2172 
+         </p>
+         <p2 class="smallpara">
+         Prasad Tech
+         200k views . 2 days ago
+        </p2>
+        </div>
+    </div> 
+</div>
 </body>
