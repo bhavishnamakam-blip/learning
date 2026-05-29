@@ -1,0 +1,55 @@
+
+
+        .search-box{
+            width: 400px;
+            height: 20px;
+            border: 1px solid rgb(192, 187, 187);
+            font-size: 20px;
+            padding: 10px;
+            color: rgb(156, 158, 154);
+            background-color: black;
+            border-radius: 30px;
+            margin-bottom: 20px;
+        }
+            .img-justmarried{
+                width: 300px;
+                border-radius: 12px;
+            }
+            .img-sheetalchannel{
+                width: 40px;
+                height: 40px;
+                border-radius: 50px;
+            }
+            .text-container{
+               width: 220px;
+            }
+            .p{
+                color: rgb(243, 243, 255);
+                font-size: 18px;
+                font-family: Roboto,sans-serif,Arial;
+                width: 200px;
+                margin-top: 0px;
+                margin-bottom: 8px;
+        
+            }
+            .smallpara{
+                color: rgb(156, 158, 154);
+                font-size: 14px;
+                font-family: Roboto,sans-serif,Arial;
+                margin-top: 0;
+                margin-bottom: 0px;
+
+            }
+            .video-info-grid {
+                display: grid;
+                grid-template-columns:50px 1fr ;
+                gap: 10px;
+                column-gap: 20px;
+                row-gap: 40px;
+            }
+            .container{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+            }
+
